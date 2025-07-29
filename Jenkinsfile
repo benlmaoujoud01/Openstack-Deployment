@@ -1,5 +1,5 @@
 def runOnController(command) {
-    sh "ssh -o StrictHostKeyChecking=yes -i /path/to/secure/key application@192.168.14.30 '${command}'"
+    sh "ssh '${command}'"
 }
 
 pipeline {
